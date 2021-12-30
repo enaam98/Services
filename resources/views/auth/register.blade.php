@@ -50,6 +50,13 @@
                 <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
                     {{ __('Already registered?') }}
                 </a>
+<br>
+                <div class="form-row">
+                    <a href="/sign-in/github" class="btn btn-secondery btn-block">github</a>
+                </div>
+  <div class="form-row">
+                    <a href="/sign-in/facebook" class="btn btn-secondery btn-block">facebook</a>
+                </div>
 
                 <x-jet-button class="ml-4">
                     {{ __('Register') }}

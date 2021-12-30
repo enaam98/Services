@@ -30,4 +30,17 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+
+    'github' => [
+        'client_id' => env('GITHUB_CLINET_ID'),
+        'client_secret' => env('GITHUB_CLINET_SECRET'),
+        'redirect' => env('GITHUB_REDIRECT_URL'),
+    ],
+
+    'facebook' => [
+        'client_id' => 'xxxx',
+        'client_secret' => 'xxx',
+        'redirect' => 'http://localhost:8000/sign-in/facebook/redirect',
+      ],
+
 ];

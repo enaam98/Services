@@ -39,6 +39,10 @@
                     </a>
                 @endif
 
+                <div class="form-row">
+                    <a href="/sign-in/github" class="btn btn-secondery btn-block"> github</a>
+                </div>
+
                 <x-jet-button class="ml-4">
                     {{ __('Log in') }}
                 </x-jet-button>
